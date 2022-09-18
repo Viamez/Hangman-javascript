@@ -1,0 +1,46 @@
+#value {
+    width: 20px;
+}
+
+#ocultar {
+    display: none;
+    flex-direction: column;
+}
+
+#ganaste {
+    display: none;
+    flex-direction: column;
+}
+#perdiste {
+    display: none;
+    flex-direction: column;
+}
+#resultP{
+    margin-top: 0px;
+    font-size: 50px;
+}
+button{
+    cursor: pointer;
+}
+.btn3 {
+    width: 70px;
+    height: 40px;
+    place-items: center;
+    border-radius: 5%;
+    border: 0px;
+    background-color: #acd9b2;
+}
+.btn4 {
+    width: 70px;
+    height: 40px;
+    place-items: center;
+    border-radius: 5%;
+    border: 0px;
+    background-color: #ef3375;
+}
+.btn2 {
+    width: 65px;
+    height: 20px;
+    place-items: center;
+    background-color: rgba(240, 113, 142, 0.765);
+}

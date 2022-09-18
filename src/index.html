@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Docusdsment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Hangman game</h1>
+    <section>
+      <form id="ocultarIniciar">
+        <p>Presiona el boton ¡Iniciar! para comenzar el juego</p>
+        <button type="button" id="btnPalabraElegida">¡Iniciar!</button>
+      </form>
+      <form id="ocultar">
+        <p>Prueba con una letra!</p>
+        <div id="contenedor">
+          <input id="value"   type="text" maxlength="1"/>
+          <button type="button" id="btnValidarLetra"">probar</button>
+          <p id="resultP"></p>
+        </div>
+        <div >
+          <img id="ahorcado" src="./images/el-ahorcado0.png" alt="ahorcado0">
+      </div>
+      <button class="btn2">Reiniciar</button>
+      </form>
+      <form id="ganaste">
+        <h2>Ganaste! Felicitaciones!!!</h2>
+        <p id="palabraSecreta"></p>
+        <button class="btn3" >Reiniciar juego</button>
+      </form>
+      <form id="perdiste">
+        <h2>Perdiste, intentalo otra vez</h2>
+        <div>
+          <img src="./images/el-ahorcado6.png" alt="colgado">
+        </div>
+        <button class="btn4" >Reintentar</button>
+      </form>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
